@@ -1,11 +1,36 @@
 body{
-    background-color: black;
+    background-color: rgb(174, 207, 222);
     color: rgba(255,255,255,0.8);
 }
 
+
 #landing{
-    height: 100vh;
-    background-image: url('https://user-images.githubusercontent.com/26179770/37276818-e3e358f4-2608-11e8-9659-05585e92a588.png');
+    color: rgb(254, 254, 254);
+    font-size: 30px;
+    font-family: 'Trebuchet MS';
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 8px palevioletred;
+    height: 80vh;
+    background-image: url('https://cdn.pixabay.com/photo/2017/08/12/10/13/background-2633962_960_720.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 246px;
+  }
+
+#aboutMe{
+    height: 150vh;
+    background-color: salmon;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
