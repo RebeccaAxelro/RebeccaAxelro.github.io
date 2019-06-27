@@ -1,9 +1,18 @@
 body{
-    background-color: rgb(174, 207, 222);
+    background-image: url('https://cdn.pixabay.com/photo/2017/08/12/10/13/background-2633962_960_720.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+    background-color: lightblue;
     color: rgba(255,255,255,0.8);
 }
-
-
+.blankSpace {
+    width: 100%;
+    height: 200px;
+    background-color: transparent;
+}
 #landing{
     color: rgb(254, 254, 254);
     font-size: 30px;
@@ -13,52 +22,28 @@ body{
     text-transform: uppercase;
     text-shadow: 2px 2px 8px palevioletred;
     height: 85vh;
-    background-image: url('https://cdn.pixabay.com/photo/2017/08/12/10/13/background-2633962_960_720.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    z-index: -1;
+    
 }
-
-img {
+.section.img {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
     width: 246px;
   }
-
 h2{
     font-size: 40px;
     text-align: center;
 }
-
 #aboutMe{
     color: rgb(254, 254, 254);
     font-size: 20px;
     text-align: center;
     font-family: 'Trebuchet MS';
     height: 95vh;
-    background-color: salmon;
+    background-color: #DBBAEC;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     z-index: -1;
-}
-
-#mainText{
-    margin-top: 30vh;
-}
-
-#aboutMeSection{
-    margin-top: 50px;
-}
-
-#work{
-    background-color: rgb(61,61,61);
-}
-
-#p1{
-    height: 350px;
 }
