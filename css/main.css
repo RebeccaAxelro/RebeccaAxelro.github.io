@@ -6,7 +6,6 @@ body{
     background-attachment: fixed;
     z-index: -1;
     background-color: lightblue;
-    color: rgba(255,255,255,0.8);
 }
 .blankSpace {
     width: 100%;
@@ -14,7 +13,7 @@ body{
     background-color: transparent;
 }
 #landing{
-    color: rgb(254, 254, 254);
+    color: white;
     font-size: 30px;
     font-family: 'Trebuchet MS';
     letter-spacing: 5px;
@@ -23,9 +22,9 @@ body{
     text-shadow: 2px 2px 8px palevioletred;
 }
 .section.img {
-    border: 1px solid #ddd;
+    border: 1px solid white;
     border-radius: 4px;
-    padding: 5px;
+    padding: 10px;
     width: 246px;
   }
 h2{
@@ -33,7 +32,7 @@ h2{
     text-align: center;
 }
 #aboutMe{
-    color: rgb(254, 254, 254);
+    color: white;
     font-size: 20px;
     text-align: center;
     font-family: 'Trebuchet MS';
@@ -43,4 +42,12 @@ h2{
     background-repeat: no-repeat;
     background-attachment: fixed;
     z-index: -1;
+}
+#skillsSection{
+    color: white;
+    font-family: 'Trebuchet MS';
+}
+#projectsSection{
+    color: white;
+    font-family: 'Trebuchet MS';
 }
