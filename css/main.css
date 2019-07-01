@@ -21,7 +21,7 @@ body{
     text-align: center;
     text-transform: uppercase;
     text-shadow: 2px 2px 8px palevioletred;
-    height: 85vh;
+    height: 90vh;
     
 }
 .section.img {
@@ -39,7 +39,7 @@ h2{
     font-size: 20px;
     text-align: center;
     font-family: 'Trebuchet MS';
-    height: 95vh;
+    height: auto;
     background-color: #DBBAEC;
     background-position: center;
     background-size: cover;
