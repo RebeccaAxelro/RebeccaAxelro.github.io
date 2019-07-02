@@ -12,21 +12,98 @@ body{
     height: 200px;
     background-color: transparent;
 }
-#landing{
+
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+
+h1 {
+	font-family: 'Lobster Two', cursive;
+	font-size: 5rem;
+	text-shadow: 4px 4px 10px palevioletred;
     color: white;
-    font-size: 30px;
-    font-family: 'Trebuchet MS';
-    letter-spacing: 5px;
-    text-align: center;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 8px palevioletred;
 }
-.section.img {
-    border: 1px solid white;
+#landing{
+    width: 95%;
+    height: 600px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, .4);
+}
+.anime-container {
+    width: 60%;
+    float: left;
+	display: flex;
+    margin-top:180px;
+    margin-left: 40px;
+	overflow: hidden;
+}
+.image-container{
+    width: 35%;
+    float: left;
+    margin-left: 20px;
+
+}
+.img {
+    border: 10px solid palevioletred;
     border-radius: 4px;
     padding: 10px;
     width: 246px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+/*PULSE*/
+.pulse {
+	position: absolute;
+	top: 55%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+    max-width: 30rem;
+}
+
+circle {
+    fill: rgb(192, 222, 42);
+    transform: scale(0);
+    opacity: 0;
+    transform-origin: 50% 50%;
+    animation: pulse 2s cubic-bezier(.5,.5,0,1);
+}
+
+circle:nth-child(2) {
+    fill: rgb(254, 254, 254);
+    animation: pulse 2s 0.75s cubic-bezier(.5,.5,0,1);
+}
+
+circle:nth-child(3) {
+    fill: rgb(192, 222, 42);
+    animation: pulse 2s 1.5s cubic-bezier(.5,.5,0,1);
+}
+@keyframes pulse {	
+	25% {
+		opacity: 0.4;
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+/*SIGNATURE*/
+.path {
+    position: absolute;
+    top: 70px;
+    left: 10%;
+    z-index: -1;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 5s linear alternate infinite;
   }
+  
+  @keyframes dash {
+    from {
+      stroke-dashoffset: 1000;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
 h2{
     font-size: 40px;
     text-align: center;
