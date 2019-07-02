@@ -60,7 +60,7 @@ h1 {
 }
 
 circle {
-    fill: rgb(192, 222, 42);
+    fill: rgb(254, 254, 254);
     transform: scale(0);
     opacity: 0;
     transform-origin: 50% 50%;
@@ -73,8 +73,16 @@ circle:nth-child(2) {
 }
 
 circle:nth-child(3) {
-    fill: rgb(192, 222, 42);
+    fill:rgb(254, 254, 254);
     animation: pulse 2s 1.5s cubic-bezier(.5,.5,0,1);
+}
+circle:nth-child(4) {
+    fill:rgb(254, 254, 254);
+    animation: pulse 2s 2.25s cubic-bezier(.5,.5,0,1);
+}
+circle:nth-child(5) {
+    fill:rgb(254, 254, 254);
+    animation: pulse 2s 3.0s cubic-bezier(.5,.5,0,1);
 }
 @keyframes pulse {	
 	25% {
